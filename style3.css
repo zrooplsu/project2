@@ -1,0 +1,261 @@
+@font-face {
+    font-weight: 400; /* Соответствует значению normal */
+    font-family: Plus Jakarta Sans;
+    src: url("../../fonts/PlusJakartaSans-Regular.ttf");
+    font-style:normal ;
+  }
+  @font-face {
+    font-weight: 400; /* Соответствует значению normal */
+    font-family: Plus Jakarta Sans;
+    src: url("../../fonts/PlusJakartaSans-Italic.ttf");
+    font-style: italic;
+  }
+  @font-face {
+    font-weight: 500; /* Соответствует значению normal */
+    font-family: Plus Jakarta Sans;
+    src: url("../../fonts/PlusJakartaSans-Medium.ttf");
+    font-style: normal;
+  }
+  @font-face {
+    font-weight: 400; /* Соответствует значению normal */
+    font-family: Plus Jakarta Sans;
+    src: url("../../fonts/PlusJakartaSans-ExtraBold.ttf");
+    font-style: bold;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Plus Jakart Sans, sans-serif;
+}
+.container {
+    max-width: 1440;
+    margin: 0 auto;
+    
+}
+.header > .container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    width: 1900px;
+    height: 70px;
+}
+.header-left {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+.ul1 {
+    display: flex;
+    column-gap: 15px;
+    
+    
+}
+.iii {
+
+    border-radius: 6px;
+background: #101010;
+color: white;
+width: 125px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+img {
+    width: 81px;
+height: 28px;
+flex-shrink: 0;
+
+}
+h1 {
+    font-size: 56px;
+}
+p {
+    font-size: 18px;
+    color: gray;
+}
+.bt {
+    border: none;
+    width: 150px;
+   height: 45px;
+background: #1AAB7B;
+margin-top: 30px;
+}
+main > section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+video {
+    width: 592px;
+height: 334px;
+flex-shrink: 0;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.help-section__block {
+    border-radius: 6px;
+border: 2px solid #E1E7ED;
+background: #F2F4F6;
+padding: 30px;
+width: 384px;
+height: 165px;
+}
+.help-section__block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.help-section__block:hover {
+    background-color: #1AAB7B;
+    
+    transition: all .4s;
+}
+
+.help-section__block:hover > p,
+.help-section__block:hover > h3,
+.help-section__block:hover > a {
+    color: #fff;
+}
+
+
+.prpr {
+    margin-top: 60px;
+}
+
+.help-section {
+     flex-wrap: wrap; 
+    margin: 0;
+    gap: 32px;
+    padding: 0;
+     margin-top: 100px;
+}
+.help-section__heading {
+display: flex;
+justify-content: center;
+margin-top: 100px;
+font-size: 36px;
+}
+.container {
+    max-width: 1440;
+    margin: 0 auto;
+}
+.work {
+    text-align: center;
+}
+ .container > .last {
+    display: flex;
+    margin-top: 30px;
+}
+.wimg {
+    width: 488px;
+height: 387.808px;
+margin-left: 300px;
+}
+.wright {
+    margin-left: 35px
+
+}
+.workt {
+    font-size: 36px;
+    font-style: italic;
+    margin-left: 10px;
+    
+}
+.hwork {
+    font-size: 40px;
+}
+.workco {
+    display: flex;
+    align-items: center;
+    margin-top: 210px;
+    
+}
+.pwork {
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.second {
+    flex-wrap: wrap;
+}
+
+
+input {
+    width: 384px;
+    height: 50px;
+    margin-top: 20px;
+
+}
+form {
+    border: 1px solid black ;
+     padding-left: 40px;
+     padding-bottom: 15px;
+    text-align: center;
+    background-image: url(./image\ 1\ \(3\).png);
+    margin-top: 20px;
+    width: 1200px;
+    height: 500px;
+}
+.contain {
+      display: flex;
+      margin-top: 100px;
+      
+     background-color: #101010;
+}
+.first, .secont {
+    margin-top: 30px;
+   
+}
+.li {
+    margin-top: 10px;
+    color: white;
+}
+.las {
+    margin-left: 800px;
+}
+.secont {
+    margin-left: 250px;
+   
+}
+.fooo {
+    background-color: #101010;
+    border: 1px solid white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.roof {
+    margin-top: 5px;
+}
+.yyy {
+    text-align: center;
+  
+}
+.hihihaha {
+    
+width: 180px;
+height: 59px;
+padding: 20px 40px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #1AAB7B;
+border: none;
+margin-left: 35px;
+margin-top: 35px;
+
+}
+.work:nth-child(2) {
+          flex-direction: row-reverse;
+}
+.container > .second:nth-child(2) {
+               flex-direction: row-reverse;
+} 
